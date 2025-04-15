@@ -14,6 +14,7 @@ md"""
 Google Colab:
 - head to [github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience?tab=readme-ov-file#running-on-google-colab)
 - click on the link for the notebook you want to start up on Colab. This one is `julia-basics.ipynb`
+- in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
 - uncomment code in below code-block and run it (this may take a while):
 """
 ## using Pkg; Pkg.add("CairoMakie")
@@ -79,6 +80,9 @@ From [https://docs.julialang.org/en/v1/manual/variables/](https://docs.julialang
 Unicode names (in UTF-8 encoding) are allowed and typed in LaTeX notation.  Try making a variable
 - `δ = 99` with `\delta`+tab
 - `x² = 25` with `x\^2`+tab
+
+**Note for Colab**: unicode input in Colab does not work yet. As a work around, you can input it as
+described above in a text-field and then copy it to a code-field. 
 """
 
 #hint ## ...
@@ -487,7 +491,7 @@ different name spaces.  We will not make much use of those, but if interested se
 **Packages** are the way people distribute code and we'll make use of them extensively.
 In the first example, the Lorenz ODE, you saw
 ```
-using u
+using CairoMakie
 ```
 This statement loads the package `CairoMakie`, the plotting package we recommend, and makes its functions
 and types available in the current session and use it like so:
