@@ -14,8 +14,8 @@ md"""
 # The team (@github handles)
 
 - Simone Silvestri (@simone-silvestri)
-  - 1
-  - 1
+  - fluid dynamicist with the passion of high performance computing
+  - developer of Oceananigans, ClimaOcean and ClimaSeaice
 - Ludovic Raess (@luraess)
   - 2
   - 2
