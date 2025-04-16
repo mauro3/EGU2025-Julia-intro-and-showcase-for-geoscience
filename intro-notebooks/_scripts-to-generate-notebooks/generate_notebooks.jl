@@ -20,7 +20,7 @@ using Literate
 @assert @__DIR__()==pwd() "Need to be in folder of this script!"
 
 # add your notebook here:
-notebook_files = ["julia-basics.jl", "intro.jl"]
+notebook_files = ["julia-basics.jl", "intro-presentaiton.jl"]
 
 # this file-types are just copied over
 asset_files = [".png"]
@@ -201,19 +201,16 @@ end
 
 # make exercises and solution notebooks
 mkpath("../solution/")
-for fl in notebook_files
-    for typ in [:assignment, :sol]
-        outputfolder = typ==:assignment ? ".." : "../solution"
-        mkpath(joinpath(outputfolder, "figures"))
-        for ff in readdir("figures/")
-            cp(joinpath("figures",ff), joinpath(outputfolder,"figures",ff), force=true)
-        end
-        process_file(fl, outputfolder, filetype=[:jl, :md, :nb][3],
-                              make_outputs=typ)
-        # hack, remove UnPack again after it was installed in the script:
-        if typ==:sol && fl=="julia-basics.jl"
-            using Pkg; Pkg.rm("UnPack")
-        end
-        cp("Project.toml", joinpath(outputfolder, "Project.toml"), force=true)
-    end
+mkpath("../figures/")
+mkpath("../solution/figures/")
+for ff in readdir("figures/")
+    cp(joinpath("figures",ff), joinpath("../figures",ff), force=true)
+    cp(joinpath("figures",ff), joinpath("../solution/figures",ff), force=true)
 end
+process_file("intro-presentaiton.jl", "..",     filetype=:nb, make_outputs=:sol)
+process_file("julia-basics.jl", "..",           filetype=:nb, make_outputs=:assignment)
+process_file("julia-basics.jl", "../solution/", filetype=:nb, make_outputs=:sol)
+# hack, remove UnPack again after it was installed in the script:
+using Pkg; Pkg.rm("UnPack")
+cp("Project.toml", "../Project.toml", force=true)
+cp("Project.toml", "../solution/Project.toml", force=true)

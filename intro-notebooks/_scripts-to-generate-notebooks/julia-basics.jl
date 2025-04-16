@@ -13,7 +13,7 @@ Local install, run this to make sure packages are installed (this may take a whi
 md"""
 Google Colab:
 - head to [github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience?tab=readme-ov-file#running-on-google-colab)
-- click on the link for the notebook you want to start up on Colab. This one is `julia-basics.ipynb`
+- click on the link for the notebook you want to start up on Colab. This one is [`julia-basics.ipynb`](https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb#scrollTo=hauaC-M8PtMP)
 - in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
 - uncomment code in below code-block and run it (this may take a while):
 """
@@ -82,7 +82,7 @@ Unicode names (in UTF-8 encoding) are allowed and typed in LaTeX notation.  Try 
 - `x² = 25` with `x\^2`+tab
 
 **Note for Colab**: unicode input in Colab does not work yet. As a work around, you can input it as
-described above in a text-field and then copy it to a code-field. 
+described above in a text-field and then copy it to a code-field. https://github.com/googlecolab/colabtools/issues/5218
 """
 
 #hint ## ...

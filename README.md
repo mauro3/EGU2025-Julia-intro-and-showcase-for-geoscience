@@ -23,6 +23,17 @@ Organizers: Mauro Werder, Ludovic Raess, Lazaro Alonso, Simone Silvestri, Milan 
   - if you have some Julia experience you can also dive into the notebooks of above showcases
 
 ## Running notebooks on Google Colab
+Open the hands-on notebook `julia-basics.jl` in Colab with
+- https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb#scrollTo=hauaC-M8PtMP
+- in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
+
+The showcase notebooks can be opened with:
+- todo
+- todo
+- todo
+- todo
+
+In the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...). Note, for some of the notebooks GPU acceleration is useful, for this select the "T4 GPU" option.
 
 ## Installing and running notebooks on your own hardware
 
