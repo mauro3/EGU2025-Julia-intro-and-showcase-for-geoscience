@@ -17,8 +17,8 @@ md"""
   - fluid dynamicist with the passion of high performance computing
   - developer of Oceananigans, ClimaOcean and ClimaSeaice
 - Ludovic Raess (@luraess)
-  - 2
-  - 2
+  - computational geoscientist by day
+  - Julia GPU and HPC wizard the rest of the time (unless sleeping)
 - Milan Kloewer (@milankl)
   - 3
   - 3
@@ -184,5 +184,5 @@ md"""
 
 ### Showcase of geoscience applications and visualisation
 
-### Hands-on session to learn the basics to get you started with Julia 
+### Hands-on session to learn the basics to get you started with Julia
 """
