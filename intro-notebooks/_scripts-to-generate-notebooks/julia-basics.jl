@@ -265,6 +265,7 @@ Relatively often used in Julia:
 ```
 a < 0 && error("Not valid input for `a`")
 ```
+which evaluates the statement after `&&` only if the first statement is true.
 """
 
 #src #########################################################################
@@ -364,6 +365,18 @@ Evaluate the function `sin(x) + cos(y)` for
 #hint ## ...
 x,y = 0:0.1:pi, -pi:0.1:pi #sol
 sin.(x) .+ cos.(y') #sol
+
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "subslide"}}
+md"""
+### Functions: exclamation mark, e.g. `push!`
+
+In Julia many functions have a `!` appended. For instance the `push!` function which you saw above.
+- signifies that the function mutates some of its arguments
+- is just a convention, i.e. the `!` is not a special syntax like the `.` you saw above
+- also name your mutating functions with a `!` at the end
+"""
+
 
 #src #########################################################################
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "subslide"}}
@@ -473,7 +486,7 @@ Macros add extra functionality which simple functions could not provide. They do
 operating on the code itself as opposed to the data like functions.
 
 - in general, as a beginner just use the provided macros as specified in their docs
-- think twice before you define your own macros (using `macro`)
+- think twice before you define your own macros (using `macro`) whether you can not achieve this with a function
 - more at the [Julia-docs](https://docs.julialang.org/en/v1/manual/metaprogramming/)
 """
 
@@ -533,11 +546,19 @@ using UnPack #sol
 #?@unpack #sol
 
 md"""
-### Packages of this short course
+### Environments
 
-This short course uses a few packages, you can see them in the
-[Project.toml](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/Project.toml) of the repo.
-Consult the README of https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience for how to install them on your local machine.
+Packages can be installed into a "environment", think virtual-env for Python. That is the recommended way to do this to
+keep dependencies with their project and avoid package version conflicts. See:
+- https://pkgdocs.julialang.org/v1/environments/
+
+### Example: this course
+This short course uses a few packages, you can see them in the various `Project.toml` files. The one for this notebook is
+[Project.toml](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/Project.toml).
+This is what gets intstalled with the invocation placed at the top of this notebook:
+```julia
+using Pkg; Pkg.instantiate()
+```
 """
 
 
