@@ -24,8 +24,9 @@ Organizers: Mauro Werder, Ludovic Raess, Lazaro Alonso, Simone Silvestri, Milan 
 
 ## Running notebooks on Google Colab
 Open the hands-on notebook `julia-basics.jl` in Colab with
-- https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb#scrollTo=hauaC-M8PtMP
+- https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb
 - in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
+  - there is also a solution notebook with all the missing bits filled in: [colab link](https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/solution/julia-basics.ipynb)
 
 The showcase notebooks can be opened with:
 - todo
