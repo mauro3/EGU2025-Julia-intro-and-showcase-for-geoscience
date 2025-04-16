@@ -121,6 +121,7 @@ Arrays are the bread and butter of science...
 
 - indexing starts at 1
 - uses `[]`
+- are column-major (like Fortran and Matlab, unlike C and Python)
 """
 
 # Task: assign vectors to `a`, and `b` and the concatenate them using `;`:
