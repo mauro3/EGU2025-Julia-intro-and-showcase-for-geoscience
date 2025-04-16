@@ -6,29 +6,28 @@ using Markdown #src
 md"""
 ###  Let's get our hands dirty!
 
-Local install, run this to make sure packages are installed (this may take a while):
+This notebook give a brief crash course getting you started with the basics of Julia.
+"""
+
+
+
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
+md"""
+###  Running this notebook
+
+**Local install:**
+- clone or download this notebook from https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience
+- run this to make sure packages are installed (this may take a while):
 """
 ## using Pkg; Pkg.instantiate()
 
 md"""
-Google Colab:
-- head to [github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience?tab=readme-ov-file#running-on-google-colab)
+**Google Colab**:
+- head to the README of [github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience?tab=readme-ov-file#running-on-google-colab)
 - click on the link for the notebook you want to start up on Colab. This one is [`julia-basics.ipynb`](https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb#scrollTo=hauaC-M8PtMP)
 - in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
-- uncomment code in below code-block and run it (this may take a while):
-"""
-## using Pkg; Pkg.add("CairoMakie")
-
-#nb # %% A slide [markdown] {"slideshow": {"slide_type": "fragment"}}
-md"""
-You should find three Jupyter notebooks:
-- `julia-basics.jl`  -- this very notebook
-- `geo-ecosystem.ipynb` -- intro to geo-data processing and visualisation
-- `diff-eqs.ipynb` -- intro to solving and inverting ordinary differential equations
-
-Note that they are all on GitHub, on the repo for this short course:
-[github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience)
-- -> there are also solution notebooks provided there!
+- no need to install packages as what we use here is pre-intsalled on Colab (i.e. Plots.jl)
 """
 
 #src #########################################################################
@@ -491,14 +490,17 @@ different name spaces.  We will not make much use of those, but if interested se
 **Packages** are the way people distribute code and we'll make use of them extensively.
 In the first example, the Lorenz ODE, you saw
 ```
-using CairoMakie
+using Plots
 ```
-This statement loads the package `CairoMakie`, the plotting package we recommend, and makes its functions
-and types available in the current session and use it like so:
+This statement loads the package `Plots`, the older standard plotting package, and makes its functions
+and types available in the current session. Note that Plots.jl comes pre-installed on Colab; the plotting
+package we recommend [`Makie.jl`](https://makie.org) would need to be installed.
+
+Use `Plots.jl` it like so:
 """
 
-using CairoMakie
-lines( (1:10).^2 )
+using Plots
+plot( (1:10).^2 )
 
 #src #########################################################################
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "subslide"}}
@@ -518,7 +520,7 @@ In the REPL, there is also a package-mode (hit `]`) which is for interactive use
 """
 
 ## Install a package the UnPack.jl package
-## use it, query help on the package itself:
+## use it, query help on the macro `@unpack` which the package provides:
 
 using Pkg
 #hint ## ...
@@ -528,7 +530,7 @@ using UnPack #sol
 #-
 
 #hint ## ...
-#?UnPack #sol
+#?@unpack #sol
 
 md"""
 ### Packages of this short course

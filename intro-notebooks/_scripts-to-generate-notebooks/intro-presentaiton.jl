@@ -99,8 +99,8 @@ end
 md"""
 And its solution plotted
 """
-using CairoMakie
-lines(out[1,:], out[2,:], out[3,:])
+using Plots # The plotting package may need to be installed with: using Pkg; Pkg.instantiate()
+plot(out[1,:], out[2,:], out[3,:])
 
 #src #########################################################################
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
