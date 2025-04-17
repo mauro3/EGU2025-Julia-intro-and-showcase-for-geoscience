@@ -7,3 +7,6 @@ global-ocean-notebooks/*.nc
 global-ocean-notebooks/*.mp4
 global-ocean-notebooks/*.gif
 global-ocean-notebooks/Manifest.toml
+.qodo
+*.nc
+.vscode

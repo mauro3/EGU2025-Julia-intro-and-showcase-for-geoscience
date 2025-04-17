@@ -1,0 +1,10 @@
+[deps]
+AlgebraOfGraphics = "cbdf2221-f076-402e-a563-3d30da359d67"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+GeoMakie = "db073c08-6b98-4ee5-b6a4-5efafb3259c6"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
+Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
