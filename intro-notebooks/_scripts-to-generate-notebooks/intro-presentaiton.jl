@@ -19,9 +19,9 @@ md"""
 - Ludovic Raess (@luraess)
   - computational geoscientist by day
   - Julia GPU and HPC wizard the rest of the time (unless sleeping)
-- Milan Kloewer (@milankl)
-  - 3
-  - 3
+- Milan Klöwer (@milankl)
+  - climate scientist, focus on climate model development
+  - developer of SpeedyWeather
 - Lazaro Alonso (@lazarusA)
   - scientist by day, plotting wizard by night
   - regular on Julia-discord, slack
