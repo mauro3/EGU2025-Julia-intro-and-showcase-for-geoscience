@@ -26,7 +26,9 @@ Organizers: Mauro Werder, Ludovic Raess, Lazaro Alonso, Simone Silvestri, Milan 
 ## Running notebooks on Google Colab
 Open the hands-on notebook `julia-basics.jl` in Colab with
 - https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb
-- in the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...)
+- save an editable personal copy; in the menu "File" -> "Save a copy in Drive"
+- open the personal copy
+- in the menu "Runtime" -> "Change runtime type" -> "Julia" (⚠️ leaving it at "Julia v1.11.5" does not work)
 - there is also a [solution notebook](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/solution/julia-basics.ipynb) with all the missing bits filled in: [colab link](https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/solution/julia-basics.ipynb)
 
 The showcase notebooks can be opened with:
@@ -35,7 +37,11 @@ The showcase notebooks can be opened with:
 - todo
 - todo
 
-In the menu "Runtime"->"Change runtime type"->"Julia" (no, leaving it at "Julia v10.9" does not work...). Note, for some of the notebooks GPU acceleration is useful, for this select the "T4 GPU" option.
+> [!WARNING]
+> Make sure to edit a personal copy of the colab notebook ("File" -> "Save a copy in Drive") and to select the `Julia` (instead of `Julia 1.11.5` runtime; "Runtime" -> "Change runtime type" -> "Julia").
+
+> [!NOTE]
+> For some of the notebooks GPU acceleration is useful, for this select the "T4 GPU" option.
 
 ## Installing and running notebooks on your own hardware
 
