@@ -19,3 +19,6 @@ To run the notebook:
 
 ### On your local GPU server
 Clone this repo or copy the notebook to your local GPU server (Nvidia GPU) and execute it, you should be all good to go.
+
+> [!NOTE]
+> Use Julia 1.10 to run this notebook.
