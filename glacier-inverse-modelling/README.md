@@ -6,7 +6,9 @@ This folder contains the Julia Jupyter notebook to run the snapshot inversion on
 ### On Google Colab
 The notebook can be accessed and executed using the Google Colab Julia GPU runtime.
 
-Upload the notebook or save a personal copy of the [Colab notebook](https://drive.google.com/file/d/1_S1GnRcu5JuW9nqHjZt0ohhe_srAoZI4/view?usp=share_link).
+<a href="https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/glacier-inverse-modelling/glacier_inverse_model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+Upload the notebook or save a personal copy of the Colab notebook:https://colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/glacier-inverse-modelling/glacier_inverse_model.ipynb .
 
 > [!NOTE]
 > Make sure to edit a personal copy of the Colab notebook ("File" -> "Save a copy in Drive").
