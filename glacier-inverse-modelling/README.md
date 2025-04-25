@@ -6,7 +6,7 @@ This folder contains the Julia Jupyter notebook to run the snapshot inversion on
 ### On Google Colab
 The notebook can be accessed and executed using the Google Colab Julia GPU runtime.
 
-Upload the notebook or save a personal copy of the [Colab notebook](https://drive.google.com/file/d/1EzGUnY0PMBvp9at8kuLBfiOlrOPwad2Q/view?usp=share_link).
+Upload the notebook or save a personal copy of the [Colab notebook](https://drive.google.com/file/d/1_S1GnRcu5JuW9nqHjZt0ohhe_srAoZI4/view?usp=share_link).
 
 > [!NOTE]
 > Make sure to edit a personal copy of the Colab notebook ("File" -> "Save a copy in Drive").
