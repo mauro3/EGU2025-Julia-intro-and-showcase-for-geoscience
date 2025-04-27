@@ -28,7 +28,7 @@ Organizers: Mauro Werder, Ludovic Räss, Lazaro Alonso, Simone Silvestri, Milan 
 #### Inverse ice flow modelling
 <img width="700" alt="glaide_output" src="https://github.com/user-attachments/assets/cc241af3-9c32-4446-932f-2ca5634a2165" />
 
-Figure depicting the inverted sliding coefficient A_s, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
+Figure depicting the inverted sliding coefficient As, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
 
 ## Running notebooks on Google Colab
 
