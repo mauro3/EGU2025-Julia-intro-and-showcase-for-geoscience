@@ -19,11 +19,19 @@ Organizers: Mauro Werder, Ludovic Räss, Lazaro Alonso, Simone Silvestri, Milan 
     - Visualisation of Geo-Data using the plotting library Makie.jl and various geodata libraries; see [visualization-of-geodata](./visualization-of-geodata)
     - Global ocean modelling with Oceananigans.jl on CPUs and GPUs; see [global-ocean-notebooks](./global-ocean-notebooks)
     - Interactive atmospheric modelling with SpeedyWeather.jl; see [speedyweather](./speedyweather)
-    - Inverse ice flow modelling and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
+    - [Inverse ice flow modelling](#inverse-ice-flow-modelling) and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
 3) Hands-on exercise to get you started with Julia
     - If you have some Julia experience you can also dive into the notebooks of above showcases
 
+### Sample output
+
+#### Inverse ice flow modelling
+<img width="700" alt="glaide_output" src="https://github.com/user-attachments/assets/cc241af3-9c32-4446-932f-2ca5634a2165" />
+
+Figure depicting the inverted sliding coefficient A_s, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
+
 ## Running notebooks on Google Colab
+
 Open the hands-on notebook `julia-basics.jl` in Colab with
 - [https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb](https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb)
 - save an editable personal copy; in the menu "File" -> "Save a copy in Drive"
