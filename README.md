@@ -41,7 +41,7 @@ Colab-links to open notebooks in your colab-instance:
   - [global_ocean_simulation_gpu.ipynb](https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/global-ocean-notebooks/global_ocean_simulation_gpu.ipynb) (uste T4 GPU instance, install and pre-compile ~20min)
 - Ice flow modelling and inversions [glacier_inverse_model.ipynb](https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/glacier-inverse-modelling/glacier_inverse_model.ipynb) (use T4 GPU instance, install and pre-compile ~30min)
 
-Open the hands-on notebook `julia-basics.jl` in Colab with
+*Detailed instructions to* open the hands-on notebook `julia-basics.jl` in Colab with
 - [https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb](https://Colab.research.google.com/github/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/blob/main/intro-notebooks/julia-basics.ipynb)
 - save an editable personal copy; in the menu "File" -> "Save a copy in Drive"
 - open the personal copy
