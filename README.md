@@ -5,7 +5,7 @@
   <img src="figures/snowfall.png" width="90%" /> 
 </p>
 
-see [code](https://github.com/lazarusA/LittlePieces/blob/main/snowfall_healpix/snowfall_healpix.jl).
+*Fig: global snowfall map, see [code](https://github.com/lazarusA/LittlePieces/blob/main/snowfall_healpix/snowfall_healpix.jl).*
 
 [Julia](https://julialang.org) offers a fresh approach to scientific computing, high-performance computing and data crunching. Recently designed from the ground up Julia avoids many of the weak points of older, widely used programming languages in science such as Python, Matlab, and R. Julia is an interactive scripting language, yet it executes with similar speed as C(++) and Fortran. Its qualities make it an appealing tool for the geo-scientist.
 
