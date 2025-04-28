@@ -1,11 +1,20 @@
 [deps]
 AlgebraOfGraphics = "cbdf2221-f076-402e-a563-3d30da359d67"
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 GeoMakie = "db073c08-6b98-4ee5-b6a4-5efafb3259c6"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+Rasters = "a3a2b9e3-a471-40c9-b274-f788e487c689"
+SpeedyWeather = "9e226e20-d153-4fed-8a5b-493def4f21a9"
 Tyler = "e170d443-b9d6-418a-9ee8-061e966341ef"
 YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
 Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
+
+[sources]
+SpeedyWeather = {rev = "main", url = "https://github.com/SpeedyWeather/SpeedyWeather.jl"}
+Tyler = {rev = "master", url = "https://github.com/MakieOrg/Tyler.jl"}
