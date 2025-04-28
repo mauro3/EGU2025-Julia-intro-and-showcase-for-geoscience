@@ -1,5 +1,9 @@
 #src # This is needed to make this run as normal Julia file:
 using Markdown #src
+#src # Note to self: to make a reveal-rise slide show served on github:
+#src # - "File" -> "Download" -> "html slides"
+#src # - put that file and figures into gh-pages branch of repo
+#src # - done
 
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
 md"""

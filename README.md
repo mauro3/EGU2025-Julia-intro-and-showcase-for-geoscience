@@ -1,6 +1,12 @@
 ### [EGU 2025](https://www.egu25.eu)
 # [Introduction and showcase of Julia for Geoscience](https://meetingorganizer.copernicus.org/EGU25/session/53623)
 
+<p float="center">
+  <img src="figures/snowfall.png" width="90%" /> 
+</p>
+
+*Fig: global snowfall map, see [code](https://github.com/lazarusA/LittlePieces/blob/main/snowfall_healpix/snowfall_healpix.jl).*
+
 [Julia](https://julialang.org) offers a fresh approach to scientific computing, high-performance computing and data crunching. Recently designed from the ground up Julia avoids many of the weak points of older, widely used programming languages in science such as Python, Matlab, and R. Julia is an interactive scripting language, yet it executes with similar speed as C(++) and Fortran. Its qualities make it an appealing tool for the geo-scientist.
 
 Julia has been gaining traction in the geosciences over the last years in applications ranging from high performance simulations, data processing, geostatistics, machine learning, differentiable programming to general modelling. The Julia package ecosystem necessary for geosciences has substantially matured, which makes it readily usable for research.
@@ -14,21 +20,15 @@ Organizers: Mauro Werder, Ludovic Räss, Lazaro Alonso, Simone Silvestri, Milan 
 
 ## Content
 
-1) Introduction presentation about Julia
+1) Introduction presentation about Julia ([slides](https://mauro3.github.io/EGU2025-Julia-intro-and-showcase-for-geoscience/intro-presentation.slides.html))
 2) Showcases of:
     - Visualisation of Geo-Data using the plotting library Makie.jl and various geodata libraries; see [visualization-of-geodata](./visualization-of-geodata)
     - Global ocean modelling with Oceananigans.jl on CPUs and GPUs; see [global-ocean-notebooks](./global-ocean-notebooks)
     - Interactive atmospheric modelling with SpeedyWeather.jl; see [speedyweather](./speedyweather)
-    - [Inverse ice flow modelling](#inverse-ice-flow-modelling) and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
-3) Hands-on exercise to get you started with Julia
+    - Inverse ice flow modelling and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
+3) Hands-on exercise to get you started with Julia (see [below](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/tree/main?tab=readme-ov-file#running-notebooks-on-google-colab))
     - If you have some Julia experience you can also dive into the notebooks of above showcases
 
-### Sample output
-
-#### Inverse ice flow modelling
-<img width="700" alt="glaide_output" src="https://github.com/user-attachments/assets/cc241af3-9c32-4446-932f-2ca5634a2165" />
-
-Figure depicting the inverted sliding coefficient As, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
 
 ## Running notebooks on Google Colab
 
