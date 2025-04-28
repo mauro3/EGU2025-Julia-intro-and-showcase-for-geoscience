@@ -20,7 +20,7 @@ Organizers: Mauro Werder, Ludovic Räss, Lazaro Alonso, Simone Silvestri, Milan 
 
 ## Content
 
-1) Introduction presentation about Julia
+1) Introduction presentation about Julia ([slides](https://mauro3.github.io/EGU2025-Julia-intro-and-showcase-for-geoscience/intro-presentation.slides.html))
 2) Showcases of:
     - Visualisation of Geo-Data using the plotting library Makie.jl and various geodata libraries; see [visualization-of-geodata](./visualization-of-geodata)
     - Global ocean modelling with Oceananigans.jl on CPUs and GPUs; see [global-ocean-notebooks](./global-ocean-notebooks)
