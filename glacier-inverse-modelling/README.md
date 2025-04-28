@@ -1,13 +1,6 @@
 # Glacier inverse modelling
 This folder contains the Julia Jupyter notebook to run the snapshot inversion on the Aletsch glacier to retrieve the basal sliding parameter. It is based on the [Glaide.jl](https://github.com/yiluchen1066/Glaide.jl) package.
 
-### Sample output
-
-#### Inverse ice flow modelling
-<img width="700" alt="glaide_output" src="https://github.com/user-attachments/assets/cc241af3-9c32-4446-932f-2ca5634a2165" />
-
-Figure depicting the inverted sliding coefficient As, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
-
 ## How to run the notebook?
 
 ### On Google Colab
@@ -29,3 +22,8 @@ Clone this repo or copy the notebook to your local GPU server (Nvidia GPU) and e
 
 > [!NOTE]
 > Use Julia 1.10 to run this notebook.
+
+### Output
+Animation depicting the inverted sliding coefficient As, the gradient of the cost function, the observed and predicted surface ice velocity after optimisation.
+
+https://github.com/user-attachments/assets/41d95f5a-ef28-4a38-afd3-9ebb40eda106
