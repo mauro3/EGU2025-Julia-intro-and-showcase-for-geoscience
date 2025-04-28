@@ -1,6 +1,12 @@
 ### [EGU 2025](https://www.egu25.eu)
 # [Introduction and showcase of Julia for Geoscience](https://meetingorganizer.copernicus.org/EGU25/session/53623)
 
+<p float="center">
+  <img src="figures/snowfall.png" width="90%" /> 
+</p>
+
+see [code](https://github.com/lazarusA/LittlePieces/blob/main/snowfall_healpix/snowfall_healpix.jl).
+
 [Julia](https://julialang.org) offers a fresh approach to scientific computing, high-performance computing and data crunching. Recently designed from the ground up Julia avoids many of the weak points of older, widely used programming languages in science such as Python, Matlab, and R. Julia is an interactive scripting language, yet it executes with similar speed as C(++) and Fortran. Its qualities make it an appealing tool for the geo-scientist.
 
 Julia has been gaining traction in the geosciences over the last years in applications ranging from high performance simulations, data processing, geostatistics, machine learning, differentiable programming to general modelling. The Julia package ecosystem necessary for geosciences has substantially matured, which makes it readily usable for research.
