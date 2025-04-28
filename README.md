@@ -25,7 +25,7 @@ Organizers: Mauro Werder, Ludovic Räss, Lazaro Alonso, Simone Silvestri, Milan 
     - Visualisation of Geo-Data using the plotting library Makie.jl and various geodata libraries; see [visualization-of-geodata](./visualization-of-geodata)
     - Global ocean modelling with Oceananigans.jl on CPUs and GPUs; see [global-ocean-notebooks](./global-ocean-notebooks)
     - Interactive atmospheric modelling with SpeedyWeather.jl; see [speedyweather](./speedyweather)
-    - [Inverse ice flow modelling](#inverse-ice-flow-modelling) and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
+    - Inverse ice flow modelling and data integration using automatic differentiation on GPUs with Glaide.jl; see [glacier-inverse-modelling](./glacier-inverse-modelling)
 3) Hands-on exercise to get you started with Julia (see [below](https://github.com/mauro3/EGU2025-Julia-intro-and-showcase-for-geoscience/tree/main?tab=readme-ov-file#running-notebooks-on-google-colab))
     - If you have some Julia experience you can also dive into the notebooks of above showcases
 
